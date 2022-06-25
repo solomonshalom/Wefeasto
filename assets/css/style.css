@@ -3,7 +3,7 @@
 \*-----------------------------------*/
 
 /**
- * copyright 2022 codewithsadee
+ * copyright 2022 Solomon Shalom Lijo
  */
 
 
@@ -597,9 +597,14 @@ body.active { overflow: hidden; }
   transform: scaleY(1);
 }
 
-.promo-card .card-icon svg { margin-inline: auto; }
+#icon-point {
+  width:"60";
+  height:"60";
+}
 
-.promo-card:hover .card-icon path { fill: var(--white); }
+.promo-card .card-icon { margin-inline: auto; width:"60"; height:"60";}
+
+.promo-card:hover .card-icon { fill: var(--white);  width:"60"; height:"60";}
 
 .promo-card:hover :is(.card-title, .card-text) { color: var(--white); }
 
@@ -873,6 +878,7 @@ body.active { overflow: hidden; }
   max-width: 17ch;
   line-height: 1.6;
   letter-spacing: -2px;
+  color: white;
 }
 
 .delivery .section-text { margin-block: 15px 25px; }
@@ -1438,11 +1444,11 @@ textarea.input-field {
 
   .about { text-align: left; }
 
-  .about .section-title { margin-block-start: 0; }
+  .about .section-title { margin-block-start: 0; color: white;}
 
   .about :is(.section-title, .btn) { margin-inline: 0; }
 
-  .about-item { justify-content: flex-start; }
+  .about-item { justify-content: flex-start; color: white;}
 
 
 
