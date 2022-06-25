@@ -27,6 +27,12 @@
     href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Rubik:wght@400;500;600;700&family=Shadows+Into+Light&display=swap"
     rel="stylesheet">
 
+  <!--
+    Manifest
+  -->
+
+  <link rel="manifest" href="manifest.json">
+
   <!-- 
     - preload images
   -->
@@ -36,6 +42,17 @@
 </head>
 
 <body id="top">
+
+  <!--
+    PWA
+  -->
+  
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./assets/js/service-worker.js')
+    }
+  </script>
+ 
 
   <!-- 
     - #HEADER
@@ -86,10 +103,6 @@
 
     </div>
   </header>
-
-
-
-
 
   <!-- 
     - #SEARCH BOX
@@ -338,7 +351,7 @@
               <div class="food-menu-card">
 
                 <div class="card-banner">
-                  <img src="./assets/Products/Corn-Flakes.jpg" width="300" height="300" loading="lazy"
+                  <img src="./assets/images/Products/Corn-Flakes.jpg" width="300" height="300" loading="lazy"
                     alt="Fried Chicken Unlimited" class="w-100">
 
 
@@ -376,7 +389,7 @@
               <div class="food-menu-card">
 
                 <div class="card-banner">
-                  <img src="./assets/Products/Rolled-Oats.jpg" width="300" height="300" loading="lazy"
+                  <img src="./assets/images/Products/Rolled-Oats.jpg" width="300" height="300" loading="lazy"
                     alt="Burger King Whopper" class="w-100">
 
 
@@ -415,7 +428,7 @@
               <div class="food-menu-card">
 
                 <div class="card-banner">
-                  <img src="./assets/Products/Museli.jpg" width="300" height="300" loading="lazy"
+                  <img src="./assets/images/Products/Museli.jpg" width="300" height="300" loading="lazy"
                     alt="White Castle Pizzas" class="w-100">
 
 
@@ -454,7 +467,7 @@
               <div class="food-menu-card">
 
                 <div class="card-banner">
-                  <img src="./assets/Products/Steel-Cut-Oats.jpg" width="300" height="300" loading="lazy"
+                  <img src="./assets/images/Products/Steel-Cut-Oats.jpg" width="300" height="300" loading="lazy"
                     alt="Bell Burrito Supreme" class="w-100">
 
 
@@ -492,7 +505,7 @@
               <div class="food-menu-card">
 
                 <div class="card-banner">
-                  <img src="./assets/Products/Health-Mix.webp" width="300" height="300" loading="lazy"
+                  <img src="./assets/images/Products/Health-Mix.webp" width="300" height="300" loading="lazy"
                     alt="Kung Pao Chicken BBQ" class="w-100">
 
 
@@ -531,7 +544,7 @@
               <div class="food-menu-card">
 
                 <div class="card-banner">
-                  <img src="./assets/Products/Health-Mix-Vanilla.webp" width="300" height="300" loading="lazy"
+                  <img src="./assets/images/Products/Health-Mix-Vanilla.webp" width="300" height="300" loading="lazy"
                     alt="Wendy's Chicken" class="w-100">
 
 
