@@ -25,7 +25,7 @@ for (let i = 0; i < navbarLinks.length; i++) {
 
 
 /**
- * header sticky & back to top
+ * header sticky & back to top (WIP)
  */
 
 
