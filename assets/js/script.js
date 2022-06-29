@@ -27,6 +27,7 @@ for (let i = 0; i < navbarLinks.length; i++) {
 /**
  * header sticky & back to top
  */
+/*
 
 const header = document.querySelector("[data-header]");
 const backTopBtn = document.querySelector("[data-back-top-btn]");
@@ -40,7 +41,7 @@ window.addEventListener("scroll", function () {
     backTopBtn.classList.remove("active");
   }
 });
-
+*/
 
 
 /**
