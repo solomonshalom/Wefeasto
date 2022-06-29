@@ -368,16 +368,7 @@ body.active { overflow: hidden; }
 }
 
 .logo {
-  color: var(--color);
-  font-family: var(--ff-rubik);
-  font-size: 2.8rem;
-  font-weight: var(--fw-700);
-  letter-spacing: -2px;
-}
-
-.logo .span {
-  display: inline-block;
-  color: var(--deep-saffron);
+  size: 2.8rem;
 }
 
 .header-btn-group {
@@ -385,13 +376,6 @@ body.active { overflow: hidden; }
   align-items: center;
   gap: 20px;
 }
-
-.search-btn {
-  color: var(--btn-color);
-  font-size: 20px;
-}
-
-.search-btn ion-icon { --ionicon-stroke-width: 50px; }
 
 .nav-toggle-btn {
   display: grid;
