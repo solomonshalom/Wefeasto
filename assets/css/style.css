@@ -339,7 +339,7 @@ body.active { overflow: hidden; }
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: auto;
   padding-block: 20px;
   border-block-end: 1px solid var(--champagne-pink_20);
   z-index: 4;
