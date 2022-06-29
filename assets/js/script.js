@@ -27,13 +27,13 @@ for (let i = 0; i < navbarLinks.length; i++) {
 /**
  * header sticky & back to top
  */
-/*
+
 
 const header = document.querySelector("[data-header]");
 const backTopBtn = document.querySelector("[data-back-top-btn]");
 
 window.addEventListener("scroll", function () {
-  if (window.scrollY >= 100) {
+  if (window.scrollY >= 0) {
     header.classList.add("active");
     backTopBtn.classList.add("active");
   } else {
@@ -41,7 +41,6 @@ window.addEventListener("scroll", function () {
     backTopBtn.classList.remove("active");
   }
 });
-*/
 
 
 /**
