@@ -75,12 +75,16 @@
     - #HEADER
   -->
 
-  <header class="header">
+    <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
     <div class="container">
 
-        <a href="/index.html">
-          <img src="https://cdn.jsdelivr.net/gh/solomonshalom/Wefeasto@master/assets/images/wefeasto logo.png" />
-        </a>
+      <h1>
+        <a href="#" class="logo">Foodie<span class="span">.</span></a>
+      </h1>
 
       <nav class="navbar" data-navbar>
         <ul class="navbar-list">
@@ -98,13 +102,22 @@
           </li>
 
           <li class="nav-item">
-            <a href="#contact" class="navbar-link" data-nav-link>Contact Us</a>
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="navbar-link" data-nav-link>Contact Us</a>
           </li>
 
         </ul>
       </nav>
-      
-        <button class="btn btn-hover"><a href="https://www.flipkart.com/food-products/wefeasto~brand/pr?sid=eat">Buy Now</a></button>
+
+      <div class="header-btn-group">
+        <button class="search-btn" aria-label="Search" data-search-btn>
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+
+        <button class="btn btn-hover">Order Now</button>
 
         <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>
           <span class="line top"></span>
@@ -112,9 +125,6 @@
           <span class="line bottom"></span>
         </button>
       </div>
-
-    </div>
-  </header>
 
 
 
