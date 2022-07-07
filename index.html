@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wefeasto - A nutrious meal, affordable and now even greater</title>
-
   <!-- 
     - favicon
   -->
@@ -22,7 +21,6 @@
   -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Rubik:wght@400;500;600;700&family=Shadows+Into+Light&display=swap"
     rel="stylesheet">
@@ -38,19 +36,6 @@
 
 <body id="top">
 
-  <!--
-    PWA
-  -->
-  
-  <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('https://cdn.statically.io/gh/solomonshalom/wefeasto/main/assets/js/service-worker.min.js')
-    }
-  </script>
- 
-
-
-
   <!-- 
     - #HEADER
   -->
@@ -59,7 +44,7 @@
     <div class="container">
 
       <h1>
-        <a href="/index.html" class="logo">WE<span class="span">FEASTO</span></a>
+        <a href="#" class="logo">Foodie<span class="span">.</span></a>
       </h1>
 
       <nav class="navbar" data-navbar>
@@ -87,18 +72,24 @@
 
         </ul>
       </nav>
-      
-        <button class="btn btn-hover">Buy Now</button>
+
+      <div class="header-btn-group">
+        <button class="search-btn" aria-label="Search" data-search-btn>
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+
+        <button class="btn btn-hover">Reservation</button>
 
         <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>
           <span class="line top"></span>
-      <span class="line middle"></span>
+          <span class="line middle"></span>
           <span class="line bottom"></span>
         </button>
       </div>
 
     </div>
   </header>
+
 
      <!-- 
         - #HERO
