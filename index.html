@@ -36,15 +36,17 @@
 
 <body id="top">
 
-  <!-- 
+ <!-- 
     - #HEADER
   -->
+
 <!--
-  <header class="header">
+
+  <header class="header" data-header>
     <div class="container">
 
       <h1>
-        <a href="#" class="logo">Foodie<span class="span">.</span></a>
+        <a href="/index.html" class="logo">WE<span class="span">FEASTO</span></a>
       </h1>
 
       <nav class="navbar" data-navbar>
@@ -63,25 +65,29 @@
           </li>
 
           <li class="nav-item">
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li class="nav-item">
             <a href="#" class="navbar-link" data-nav-link>Contact Us</a>
           </li>
 
         </ul>
       </nav>
-
-        <button class="btn btn-hover">Reservation</button>
+      
+        <button class="btn btn-hover">Buy Now</button>
 
         <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>
           <span class="line top"></span>
-          <span class="line middle"></span>
+      <span class="line middle"></span>
           <span class="line bottom"></span>
         </button>
       </div>
 
     </div>
   </header>
-
 -->
+
      <!-- 
         - #HERO
       -->
@@ -113,7 +119,7 @@
       </section>
 
 
-       <!-- 
+      <!-- 
         - #PROMO
       -->
 
@@ -126,24 +132,7 @@
               <div class="promo-card">
 
                 <div class="card-icon">
-
-                </div>
-
-                <h3 class="h3 card-title">Recipe</h3>
-
-                <p class="card-text">
-                  Food is any substance consumed to provide nutritional support for an organism.
-                </p>
-
-
-              </div>
-            </li>
-
-            <li class="promo-item">
-              <div class="promo-card">
-
-                <div class="card-icon">
- 
+            
                 </div>
 
                 <h3 class="h3 card-title">Recipe</h3>
@@ -158,7 +147,7 @@
             <li class="promo-item">
               <div class="promo-card">
 
-                <div class="card-icon">
+                <div class="card-icon" id="icon-point">
 
                 </div>
 
@@ -200,6 +189,21 @@
                   Food is any substance consumed to provide nutritional support for an organism.
                 </p>
 
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <div class="card-icon">
+      
+                </div>
+
+                <h3 class="h3 card-title">Recipe</h3>
+
+                <p class="card-text">
+                  Food is any substance consumed to provide nutritional support for an organism.
+                </p>
 
               </div>
             </li>
@@ -210,7 +214,10 @@
       </section>
 
 
-           <!-- 
+
+
+
+      <!-- 
         - #ABOUT
       -->
 
@@ -272,11 +279,276 @@
         </div>
       </section>
 
+
+
+
+
+       <!-- 
+        - #FOOD MENU
+      -->
+
+      <section class="section food-menu" id="food-menu">
+        <div class="container">
+
+          <p class="section-subtitle">Check It Out!</p>
+
+          <h2 class="h2 section-title">
+            Our Bestselling <span class="span">Products</span>
+          </h2>
+
+          <p class="section-text">
+            Food is any substance consumed to provide nutritional support for an organism.
+          </p>
+
+          <ul class="food-menu-list">
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="https://cdn.statically.io/gh/solomonshalom/wefeasto/main/assets/images/Products/Corn-Flakes.jpg" width="300" height="300" loading="lazy"
+                    alt="Fried Chicken Unlimited" class="w-100">
+
+
+                  <a href=""><button class="btn food-menu-btn">Order Now</button></a>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Oats</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Corn Flakes</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Price:</p>
+
+                  <data class="price">₹165</data>
+
+                  <del class="del" value="180">₹180</del>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="https://cdn.statically.io/gh/solomonshalom/wefeasto/main/assets/images/Products/Rolled-Oats.jpg" width="300" height="300" loading="lazy"
+                    alt="Burger King Whopper" class="w-100">
+
+
+                  <a href="https://www.amazon.in/WEFEASTO-Rolled-Oats/dp/B08NHQXWL4/ref=sr_1_5?crid=2EEATQ1BD9BXV&keywords=wefeasto&qid=1653152045&sprefix=wefeast%2Caps%2C267&sr=8-5"><a href=""><button class="btn food-menu-btn">Order Now</button></a></a>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Oats</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Rolled Oats</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Price:</p>
+
+                  <data class="price" value="130">₹
+                    130</data>
+
+                  <del class="del">₹145.00</del>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="https://cdn.statically.io/gh/solomonshalom/wefeasto/main/assets/images/Products/Museli.jpg" width="300" height="300" loading="lazy"
+                    alt="White Castle Pizzas" class="w-100">
+
+
+                  <a href=""><button class="btn food-menu-btn">Order Now</button></a>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Museli</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Museli</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Price:</p>
+
+                  <data class="price" value="49.00">₹
+                    249</data>
+
+                  <del class="del">₹300</del>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="https://cdn.statically.io/gh/solomonshalom/wefeasto/main/assets/images/Products/Steel-Cut-Oats.jpg" width="300" height="300" loading="lazy"
+                    alt="Bell Burrito Supreme" class="w-100">
+
+
+                  <a href=""><button class="btn food-menu-btn">Order Now</button></a>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Oats</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Steel Cut Oats</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Price:</p>
+
+                  <data class="price" value="59.00 ">₹
+                    135</data>
+
+                  <del class="del">₹69.00</del>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="https://cdn.statically.io/gh/solomonshalom/wefeasto/main/assets/images/Products/Health-Mix.webp" width="300" height="300" loading="lazy"
+                    alt="Kung Pao Chicken BBQ" class="w-100">
+
+
+                  <a href=""><button class="btn food-menu-btn">Order Now</button></a>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Health Mix</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Health Mix - Strawberry</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Price:</p>
+
+                  <data class="price" value="49.00">₹
+                    265</data>
+
+                  <del class="del">₹300</del>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="https://cdn.statically.io/gh/solomonshalom/wefeasto/main/assets/images/Products/Health-Mix-Vanilla.webp" width="300" height="300" loading="lazy"
+                    alt="Wendy's Chicken" class="w-100">
+
+
+                  <a href=""><button class="btn food-menu-btn">Order Now</button></a>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Health Mix</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Health Mix - Vanilla</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Price:</p>
+
+                  <data class="price" value="149.00">₹
+                    149</data>
+
+                  <del class="del">₹
+                    180</del>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+
+        </div>
+      </section>
+
+
+
+
       <!-- 
         - #CTA
       -->
 
-      <section class="section section-divider white cta">
+      <section class="section section-divider white cta" style="background-image: url('./assets/images/hero-bg.jpg')">
         <div class="container">
 
           <div class="cta-content">
@@ -333,7 +605,7 @@
                   </figure>
 
                   <div>
-                    <h3 class="h4 testi-name">Mathew Yohannan</h3>
+                    <h3 class="h4 testi-name">Charles Richard</h3>
 
                     <p class="testi-title">Working Professional</p>
                   </div>
@@ -367,7 +639,7 @@
                   </figure>
 
                   <div>
-                    <h3 class="h4 testi-name">Richu Varghese</h3>
+                    <h3 class="h4 testi-name">Thomas Josef</h3>
 
                     <p class="testi-title">Business Man</p>
                   </div>
@@ -511,7 +783,7 @@
         </div>
       </section>
 
-            <!-- 
+           <!-- 
         - #BLOG
       -->
 
@@ -825,4 +1097,3 @@
 </body>
 
 </html>
-
