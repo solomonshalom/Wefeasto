@@ -7,3 +7,4 @@ Most static files such as the ``script.js`` and ``style.css`` files inclduing so
 
 # License 
 For use in commercial ways, please contact me in twitter or my email for permission (Use without permission will result in termination of the hosted website). I hope you loved the theme! all PR's will be merged :D
+
