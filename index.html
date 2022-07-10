@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Wefeasto - A nutrious meal, affordable and now even greater</title>
+  <title>Foodie - Supper delicious Burger in town!</title>
+
   <!-- 
     - favicon
   -->
@@ -36,18 +37,14 @@
 
 <body id="top">
 
- <!-- 
+  <!-- 
     - #HEADER
   -->
-
-<!--
 
   <header class="header" data-header>
     <div class="container">
 
-      <h1>
-        <a href="/index.html" class="logo">WE<span class="span">FEASTO</span></a>
-      </h1>
+      <a href="/index.html" class="logo"><img src="https://cdn.statically.io/gh/solomonshalom/wefeasto/main/assets/images/wefeasto logo.png" /></a>
 
       <nav class="navbar" data-navbar>
         <ul class="navbar-list">
@@ -74,49 +71,86 @@
 
         </ul>
       </nav>
-      
-        <button class="btn btn-hover">Buy Now</button>
+
+      <div class="header-btn-group">
+        <button class="search-btn" aria-label="Search" data-search-btn>
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+
+        <button class="btn btn-hover">Order Now</button>
 
         <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>
           <span class="line top"></span>
-      <span class="line middle"></span>
+          <span class="line middle"></span>
           <span class="line bottom"></span>
         </button>
       </div>
 
     </div>
   </header>
--->
 
-     <!-- 
+
+
+
+
+  <!-- 
+    - #SEARCH BOX
+  -->
+
+  <div class="search-container" data-search-container>
+
+    <div class="search-box">
+      <input type="search" name="search" aria-label="Search here" placeholder="Type keywords here..."
+        class="search-input">
+
+      <button class="search-submit" aria-label="Submit search" data-search-submit-btn>
+        <ion-icon name="search-outline"></ion-icon>
+      </button>
+    </div>
+
+    <button class="search-close-btn" aria-label="Cancel search" data-search-close-btn></button>
+
+  </div>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
         - #HERO
       -->
 
-      <section class="hero" id="home" style="background-image: url('https://cdn.statically.io/gh/solomonshalom/wefeasto/main/assets/images/hero-bg.jpg')">
+      <section class="hero" id="home" style="background-image: url('./assets/images/hero-bg.jpg')">
         <div class="container">
 
           <div class="hero-content">
 
-            <p class="hero-subtitle">Hey, New Friend!</p>
+            <p class="hero-subtitle">Eat Sleep And</p>
 
             <h2 class="h1 hero-title">Super Delicious, Crunchy And Healthy</h2>
 
-            <p class="hero-text">We are more then just a brand, we are a lifestyle</p>
+            <p class="hero-text">We are more then just a brand, we are a lifestyle.</p>
 
             <button class="btn"><a href="https://www.flipkart.com/food-products/wefeasto~brand/pr?sid=eat">Buy Now</a></button>
 
           </div>
 
           <figure class="hero-banner">
-            <img src="./assets/images/hero-banner-bg.png" width="820" height="716" alt="" aria-hidden="true"
+            <img src="https://cdn.statically.io/gh/solomonshalom/Wefeasto/main/assets/images/hero-banner-bg.png" width="820" height="716" alt="" aria-hidden="true"
               class="w-100 hero-img-bg">
 
-            <img src="./assets/images/oats-2(proto).png" width="700" height="637" loading="lazy" alt="Burger"
+            <img src="https://cdn.statically.io/gh/solomonshalom/Wefeasto/main/assets/images/oats-2(proto).png" width="700" height="637" loading="lazy" alt="Burger"
               class="w-100 hero-img">
           </figure>
 
         </div>
       </section>
+
+
+
 
 
       <!-- 
@@ -218,10 +252,10 @@
 
 
       <!-- 
-        - #ABOUT
+        - #CTA
       -->
 
-      <section class="section section-divider gray about " id="about"  style="background-image: url('https://cdn.statically.io/gh/solomonshalom/wefeasto/main/assets/images/hero-bg.jpg')">
+      <section class="section section-divider gray cta" style="background-image: url('./assets/images/hero-combined2.jpg')">
         <div class="container">
 
           <div class="about-banner">
@@ -283,7 +317,7 @@
 
 
 
-       <!-- 
+      <!-- 
         - #FOOD MENU
       -->
 
@@ -310,7 +344,7 @@
                     alt="Fried Chicken Unlimited" class="w-100">
 
 
-                  <a href=""><button class="btn food-menu-btn">Order Now</button></a>
+                  <a href="https://www.amazon.in/WEFEASTO-Corn-Flakes/dp/B08R4227T1"><button class="btn food-menu-btn">Order Now</button></a>
                 </div>
 
                 <div class="wrapper">
@@ -348,7 +382,7 @@
                     alt="Burger King Whopper" class="w-100">
 
 
-                  <a href="https://www.amazon.in/WEFEASTO-Rolled-Oats/dp/B08NHQXWL4/ref=sr_1_5?crid=2EEATQ1BD9BXV&keywords=wefeasto&qid=1653152045&sprefix=wefeast%2Caps%2C267&sr=8-5"><a href=""><button class="btn food-menu-btn">Order Now</button></a></a>
+                  <a href="https://www.amazon.in/WEFEASTO-Rolled-Oats/dp/B08NHQXWL4"><a href=""><button class="btn food-menu-btn">Order Now</button></a></a>
                 </div>
 
                 <div class="wrapper">
@@ -387,7 +421,7 @@
                     alt="White Castle Pizzas" class="w-100">
 
 
-                  <a href=""><button class="btn food-menu-btn">Order Now</button></a>
+                  <a href="https://www.amazon.in/WEFEASTO-Muesli-Fruits-Nuts-Seeds/dp/B08NCV9DYJ"><button class="btn food-menu-btn">Order Now</button></a>
                 </div>
 
                 <div class="wrapper">
@@ -426,7 +460,7 @@
                     alt="Bell Burrito Supreme" class="w-100">
 
 
-                  <a href=""><button class="btn food-menu-btn">Order Now</button></a>
+                  <a href="https://www.amazon.in/WEFEASTO-STEEL-CUT-OATS/dp/B08NHR9L6K/ref=pd_day0fbt_sccl_2/260-1675239-8186716?pd_rd_w=RUDFI&content-id=amzn1.sym.39a9e5bc-3e99-46ba-8f3b-b6312dcdf374&pf_rd_p=39a9e5bc-3e99-46ba-8f3b-b6312dcdf374&pf_rd_r=528N1NB0BWZB3BHM179A&pd_rd_wg=043Vh&pd_rd_r=134066b6-97fb-4344-8325-b847456ae02b&pd_rd_i=B08NHR9L6K&psc=1"><button class="btn food-menu-btn">Order Now</button></a>
                 </div>
 
                 <div class="wrapper">
@@ -464,7 +498,7 @@
                     alt="Kung Pao Chicken BBQ" class="w-100">
 
 
-                  <a href=""><button class="btn food-menu-btn">Order Now</button></a>
+                  <a href="https://www.bigbasket.com/pd/40209977/wefeasto-instant-health-mix-strawberry-450-g/"><button class="btn food-menu-btn">Order Now</button></a>
                 </div>
 
                 <div class="wrapper">
@@ -503,7 +537,7 @@
                     alt="Wendy's Chicken" class="w-100">
 
 
-                  <a href=""><button class="btn food-menu-btn">Order Now</button></a>
+                  <a href="https://www.amazon.in/WEFEASTO-Health-Mix-Vanilla-Flavour/dp/B08NHQJXHK"><button class="btn food-menu-btn">Order Now</button></a>
                 </div>
 
                 <div class="wrapper">
@@ -544,25 +578,26 @@
 
 
 
+
       <!-- 
-        - #CTA
+        - #DELIVERY
       -->
 
-      <section class="section section-divider white cta" style="background-image: url('./assets/images/hero-bg.jpg')">
+      <section class="section section-divider gray delivery"  style="background-image: url('./assets/images/hero-combined3.jpg')">
         <div class="container">
 
           <div class="cta-content">
 
-            <h2 class="h2 section-title">
+            <h2 class="h2 section-title" style="color: white">
               Delivering Our Best <span class="span"> Fast </span> &
               <span class="span">Anywhere</span>
             </h2>
 
-            <p class="section-text">
+            <p class="section-text" style="color: white">
               We have partnered up with your favorite brands to deliever what we do best to your home super fast.
             </p>
 
-            <button class="btn btn-hover"><a href="https://linktr.ee/wefeasto">Order Now</a></button>
+            <button class="btn btn-hover"><a href="./link/GOLink/index.html">Order Now</a></button>
           </div>
 
           <figure class="delivery-banner">
@@ -573,6 +608,8 @@
 
         </div>
       </section>
+
+
 
 
       <!-- 
@@ -699,11 +736,12 @@
         </div>
       </section>
 
+
       <!-- 
         - #BANNER
       -->
 
-      <section class="section section-divider white banner" style="background-image: url('./assets/images/hero-bg.jpg')">
+    <!--  <section class="section section-divider gray banner">
         <div class="container">
 
           <ul class="banner-list">
@@ -711,13 +749,13 @@
             <li class="banner-item banner-lg">
               <div class="banner-card">
 
-                <img src="#" width="550" height="450" loading="lazy"
-                  alt="Discount For Delicious Oats" class="banner-img">
+                <img src="./assets/images/banner-1.jpg" width="550" height="450" loading="lazy"
+                  alt="Discount For Delicious Tasty Burgers!" class="banner-img">
 
                 <div class="banner-item-content">
                   <p class="banner-subtitle">50% Off Now!</p>
 
-                  <h3 class="banner-title">Discount For Delicious Oats</h3>
+                  <h3 class="banner-title">Discount For Delicious Tasty Burgers!</h3>
 
                   <p class="banner-text">Sale off 50% only this week</p>
 
@@ -730,11 +768,11 @@
             <li class="banner-item banner-sm">
               <div class="banner-card">
 
-                <img src="#" width="550" height="465" loading="lazy" alt="Amazing cornflakes"
+                <img src="./assets/images/banner-2.jpg" width="550" height="465" loading="lazy" alt="Delicious Pizza"
                   class="banner-img">
 
                 <div class="banner-item-content">
-                  <h3 class="banner-title">Amazing cornflakes</h3>
+                  <h3 class="banner-title">Delicious Pizza</h3>
 
                   <p class="banner-text">50% off Now</p>
 
@@ -747,11 +785,11 @@
             <li class="banner-item banner-sm">
               <div class="banner-card">
 
-                <img src="#" width="550" height="465" loading="lazy" alt="Tasty Buzzed Rolled Oats"
+                <img src="./assets/images/banner-3.jpg" width="550" height="465" loading="lazy" alt="American Burgers"
                   class="banner-img">
 
                 <div class="banner-item-content">
-                  <h3 class="banner-title">Tasty Buzzed Rolled Oats</h3>
+                  <h3 class="banner-title">American Burgers</h3>
 
                   <p class="banner-text">50% off Now</p>
 
@@ -764,11 +802,11 @@
             <li class="banner-item banner-md">
               <div class="banner-card">
 
-                <img src="#" width="550" height="220" loading="lazy" alt="Super-licious Health Mix"
+                <img src="./assets/images/banner-4.jpg" width="550" height="220" loading="lazy" alt="Tasty Buzzed Pizza"
                   class="banner-img">
 
                 <div class="banner-item-content">
-                  <h3 class="banner-title">Super-licious Health Mix</h3>
+                  <h3 class="banner-title">Tasty Buzzed Pizza</h3>
 
                   <p class="banner-text">Sale off 50% only this week</p>
 
@@ -783,20 +821,24 @@
         </div>
       </section>
 
-           <!-- 
+ -->
+
+
+
+      <!-- 
         - #BLOG
       -->
 
-      <section class="section section-divider white blog" id="blog">
+      <section class="section section-divider white blog" id="blog" style="background-image: url('./assets/images/hero-combined3.jpg')">
         <div class="container">
 
           <p class="section-subtitle">Latest Blog Posts</p>
 
-          <h2 class="h2 section-title">
+          <h2 class="h2 section-title" style="color: white">
             The right place for your <span class="span"> fitness journey</span>
           </h2>
 
-          <p class="section-text">
+          <p class="section-text" style="color: white">
             Check out our wide range of health talks to help you navigate your fitness journey
           </p>
 
@@ -952,11 +994,14 @@
   </main>
 
 
+
+
+
   <!-- 
     - #FOOTER
   -->
 
-  <footer class="footer">
+  <footer class="footer section-divider white">
 
     <div class="footer-top" style="background-image: url('./assets/images/footer-illustration.png')">
       <div class="container">
@@ -1080,6 +1125,20 @@
   </div>
 
   </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
 
 
 

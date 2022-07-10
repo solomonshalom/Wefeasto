@@ -25,20 +25,43 @@ for (let i = 0; i < navbarLinks.length; i++) {
 
 
 /**
- * header sticky & back to top (WIP)
+ * header sticky & back to top
  */
 
-
 const header = document.querySelector("[data-header]");
+const backTopBtn = document.querySelector("[data-back-top-btn]");
 
 window.addEventListener("scroll", function () {
-  if (window.scrollY >= 150) {
+  if (window.scrollY >= 100) {
     header.classList.add("active");
+    backTopBtn.classList.add("active");
   } else {
     header.classList.remove("active");
     backTopBtn.classList.remove("active");
   }
 });
+
+
+
+/**
+ * search box toggle
+ */
+
+const searchBtn = document.querySelector("[data-search-btn]");
+const searchContainer = document.querySelector("[data-search-container]");
+const searchSubmitBtn = document.querySelector("[data-search-submit-btn]");
+const searchCloseBtn = document.querySelector("[data-search-close-btn]");
+
+const searchBoxElems = [searchBtn, searchSubmitBtn, searchCloseBtn];
+
+for (let i = 0; i < searchBoxElems.length; i++) {
+  searchBoxElems[i].addEventListener("click", function () {
+    searchContainer.classList.toggle("active");
+    document.body.classList.toggle("active");
+  });
+}
+
+
 
 /**
  * move cycle on scroll
