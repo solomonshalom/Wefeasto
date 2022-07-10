@@ -367,7 +367,7 @@ body.active { overflow: hidden; }
   align-items: center;
 }
 
-.logo {
+/*.logo {
   color: var(--color);
   font-family: var(--ff-rubik);
   font-size: 2.8rem;
@@ -379,7 +379,7 @@ body.active { overflow: hidden; }
   display: inline-block;
   color: var(--deep-saffron);
 }
-
+*/
 .header-btn-group {
   display: flex;
   align-items: center;
