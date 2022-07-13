@@ -16,6 +16,7 @@
     - custom css link
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/normalize.css">
 
   <!-- 
     - google font link
@@ -159,93 +160,24 @@
 
       <section class="section section-divider white promo">
         <div class="container">
+          <h2 class="h2 section-title">
+            Check out
+            <span class="span">our videos!</span>
+          </h2>
+          <p class="section-text">
+            Check our videos on recipes, health tips and more.
+          </p>
+       </div>
+       <div id="wrapper" class="playlist-wrapper">
+        <div id="player" class="player-wrapper">
+          <div class="save_spinner"></div>
+       </div>
+       <div class="playlist-thumb-container">
+         <ul id="playlistThumb" class="playlist-thumb"></ul>
+       </div>
+      </div>
 
-          <ul class="promo-list has-scrollbar">
-
-            <li class="promo-item">
-              <div class="promo-card">
-
-                <div class="card-icon">
-            
-                </div>
-
-                <h3 class="h3 card-title">Recipe</h3>
-
-                <p class="card-text">
-                  Food is any substance consumed to provide nutritional support for an organism.
-                </p>
-
-              </div>
-            </li>
-
-            <li class="promo-item">
-              <div class="promo-card">
-
-                <div class="card-icon" id="icon-point">
-
-                </div>
-
-                <h3 class="h3 card-title">Recipe</h3>
-
-                <p class="card-text">
-                  Food is any substance consumed to provide nutritional support for an organism.
-                </p>
-
-              </div>
-            </li>
-
-            <li class="promo-item">
-              <div class="promo-card">
-
-                <div class="card-icon">
-
-                </div>
-
-                <h3 class="h3 card-title">Recipe</h3>
-
-                <p class="card-text">
-                  Food is any substance consumed to provide nutritional support for an organism.
-                </p>
-
-              </div>
-            </li>
-
-            <li class="promo-item">
-              <div class="promo-card">
-
-                <div class="card-icon">
-        
-                </div>
-
-                <h3 class="h3 card-title">Recipe</h3>
-
-                <p class="card-text">
-                  Food is any substance consumed to provide nutritional support for an organism.
-                </p>
-
-              </div>
-            </li>
-
-            <li class="promo-item">
-              <div class="promo-card">
-
-                <div class="card-icon">
-      
-                </div>
-
-                <h3 class="h3 card-title">Recipe</h3>
-
-                <p class="card-text">
-                  Food is any substance consumed to provide nutritional support for an organism.
-                </p>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
+    </section>
 
 
 
@@ -597,7 +529,7 @@
               We have partnered up with your favorite brands to deliever what we do best to your home super fast.
             </p>
 
-            <button class="btn btn-hover"><a href="./link/GOLink/index.html">Order Now</a></button>
+            <button class="btn btn-hover"><a href="./link/index.html">Order Now</a></button>
           </div>
 
           <figure class="delivery-banner">
@@ -994,7 +926,11 @@
   </main>
 
 
-
+  <!--
+    Whatsapp
+  -->
+  <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+  <div class="elfsight-app-fe598273-33ab-410b-9cf6-7e286f5adfc2"></div>
 
 
   <!-- 
@@ -1146,6 +1082,9 @@
     - custom js link
   -->
   <script src="./assets/js/script.js" defer></script>
+  <script src="./assets/js/normalize.js" defer></script>
+  <script src='https://www.youtube.com/iframe_api'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
 
   <!-- 
     - ionicon link
