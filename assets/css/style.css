@@ -563,7 +563,13 @@ body.active { overflow: hidden; }
   color: var(--black);
 }
 
-
+#text-lol {
+  color: var(--dark-orange);
+  font-family: var(--ff-shadows-into-light);
+  font-size: var(--fs-3);
+  letter-spacing: 1px;
+  margin-block-end: 25px;
+}
 
 
 
