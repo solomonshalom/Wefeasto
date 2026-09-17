@@ -9,8 +9,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cooking &lt;3 &middot; Wefeasto</title>
-    <meta name="description" content="Wefeasto is cooking something up. Back soon.">
+    <title>We&rsquo;re cooking &lt;33 &middot; Wefeasto</title>
+    <meta name="description" content="Our site&rsquo;s getting a fresh coat. Back very soon.">
     <!-- temporary page: keep it out of the index so the real site keeps its rankings -->
     <meta name="robots" content="noindex, nofollow">
     <meta name="theme-color" content="#f7f1e8">
@@ -18,20 +18,21 @@
     <meta http-equiv="refresh" content="300">
 
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Cooking &lt;3">
-    <meta property="og:description" content="Wefeasto is cooking something up. Back soon.">
+    <meta property="og:title" content="We&rsquo;re cooking &lt;33">
+    <meta property="og:description" content="Our site&rsquo;s getting a fresh coat. Back very soon.">
     <meta property="og:image" content="assets/images/cooking.jpg">
     <meta name="twitter:card" content="summary_large_image">
 
     <link rel="icon" href="assets/images/wefeasto.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
 
     <style>
         :root {
             --cream: #f7f1e8;
             --ink: #171310;
+            --muted: #756b60;
             --orange: #ff8243;
         }
 
@@ -45,7 +46,7 @@
         body {
             background: var(--cream);
             color: var(--ink);
-            font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+            font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
             overflow: hidden;
             -webkit-font-smoothing: antialiased;
         }
@@ -69,36 +70,27 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-            background: #1c1613;
+            background: #3a2517;
         }
 
         .say {
-            position: relative;
             display: flex;
             flex-direction: column;
             justify-content: center;
             padding: clamp(24px, 5vw, 80px);
         }
 
-        .logo {
-            position: absolute;
-            top: clamp(24px, 4.5vw, 56px);
-            left: clamp(24px, 5vw, 80px);
-            width: clamp(112px, 11vw, 150px);
-            height: auto;
-        }
-
         h1 {
             margin: 0;
-            font-size: clamp(2.9rem, 7.4vw, 6.75rem);
-            font-weight: 600;
-            line-height: 1;
-            letter-spacing: -.025em;
+            font-size: clamp(1.85rem, 3.9vw, 3.35rem);
+            font-weight: 500;
+            line-height: 1.12;
+            letter-spacing: -.022em;
+            text-wrap: balance;
         }
 
         .heart {
             display: inline-block;
-            margin-left: -.06em;
             color: var(--orange);
             animation: beat 2.6s ease-in-out infinite;
         }
@@ -108,6 +100,16 @@
             0%, 30%, 100% { transform: scale(1) }
             8%  { transform: scale(1.1) }
             19% { transform: scale(1.06) }
+        }
+
+        .line {
+            max-width: 52ch;
+            margin: clamp(14px, 1.7vw, 22px) 0 0;
+            font-size: clamp(.92rem, 1.05vw, 1.02rem);
+            font-weight: 300;
+            line-height: 1.6;
+            color: var(--muted);
+            text-wrap: balance;
         }
 
         /* stacked halves on phones — still 50/50 */
@@ -122,13 +124,8 @@
                 text-align: center;
             }
 
-            .logo {
-                position: static;
-                width: 126px;
-                margin-bottom: clamp(18px, 4.5vw, 30px);
-            }
-
-            h1 { font-size: clamp(2.6rem, 13vw, 4.5rem) }
+            h1 { font-size: clamp(1.75rem, 7.6vw, 2.9rem) }
+            .line { font-size: clamp(.88rem, 3.7vw, 1rem) }
         }
 
         @media (prefers-reduced-motion: reduce) {
@@ -140,11 +137,11 @@
 <body>
     <main class="split">
         <img class="photo" src="assets/images/cooking.jpg" fetchpriority="high"
-            alt="A jar of Wefeasto oats layered with yoghurt and blackberries">
+            alt="A glass of Wefeasto granola set in a bed of oats, nuts, seeds and dried fruit">
 
         <div class="say">
-            <img class="logo" src="assets/images/wefeasto.png" width="150" height="37" alt="Wefeasto">
-            <h1>Cooking <span class="heart">&lt;3</span></h1>
+            <h1>We&rsquo;re cooking <span class="heart">&lt;33</span></h1>
+            <p class="line">Our site&rsquo;s getting a fresh coat &mdash; back very soon.</p>
         </div>
     </main>
 </body>
