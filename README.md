@@ -52,6 +52,12 @@ git commit -am "Back under maintenance"
   of `assets/images/cooking.jpg` when you have it and the page picks it up with
   no other changes.
 - To swap the photo, point `.photo` at a different file in `assets/images/`.
+- The seam between the two halves is a wavy cut, done with an SVG mask on
+  `.photo` (`mask-image`, stretched via `mask-size: 100% 100%`). There are two:
+  a vertical wave for the side-by-side layout and a gentler horizontal one for
+  when the halves stack. If a browser doesn't support masks, the seam just
+  falls back to a straight edge. The photo column is `1.06fr` rather than
+  `1fr` so the wave's crests and troughs average out on the page's centre line.
 - It re-checks itself every 5 minutes (`<meta http-equiv="refresh">`), so open
   tabs pick the real site back up on their own once you wake it.
 - It's marked `noindex, nofollow` so search engines don't index the holding
